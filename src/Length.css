@@ -2,10 +2,11 @@
     width: 100px;
     height: 100px;
     margin: 100px;
-    background-color: black;
+    background-color: #070707;
 }
+
 div {
     margin: 20px;
-    border-top: solid 1px;
-    border-bottom: solid 1px;
+    /* border-top: solid 1px;
+    border-bottom: solid 1px; */
 }
