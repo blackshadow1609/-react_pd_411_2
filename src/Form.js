@@ -37,11 +37,11 @@ class Form extends React.Component {
                     <div><input value={eMail} name="eMail" placeholder="Почта" onChange={this.update} /></div>
                     <div><input type="button" value={"Подтвердить"} onClick={this.approve} /></div>
                 </form>
-                <p id="greeting" style={{visibility:  "hidden"}}>
+                <p id="greeting" style={{visibility: "hidden"}}>
                     Здравствуйте {lastName} {firstName}, поздравляем Вас с регистрацией.
                     Ваша почта {eMail}
                 </p>
-                <p id="check" style={{visibility:  "hidden"}}>
+                <p id="check" style={{visibility: "hidden"}}>
                     Проверьте данные.
                 </p>
             </>
